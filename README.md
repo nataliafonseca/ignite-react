@@ -13,3 +13,8 @@ Repositório criado para armazenamento do código das aulas da trilha ReactJS do
 
 - [Desafio 01 - Criando um hook de carrinho de compras](https://github.com/nataliafonseca/ignite-react-c2-d01)
 - [Desafio 02 - Refactoring de classes e TypeScript](https://github.com/nataliafonseca/ignite-react-c2-d02)
+
+### Capítulo III
+
+- [Desafio 01 - Criando uma aplicação do zero](https://github.com/nataliafonseca/ignite-react-c3-d01)
+- [Desafio 02 - Adicionado features ao blog](https://github.com/nataliafonseca/ignite-react-c3-d02)
