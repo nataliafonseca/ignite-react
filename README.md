@@ -17,4 +17,9 @@ Repositório criado para armazenamento do código das aulas da trilha ReactJS do
 ### Capítulo III
 
 - [Desafio 01 - Criando uma aplicação do zero](https://github.com/nataliafonseca/ignite-react-c3-d01)
-- [Desafio 02 - Adicionado features ao blog](https://github.com/nataliafonseca/ignite-react-c3-d02)
+- [Desafio 02 - Adicionando features ao blog](https://github.com/nataliafonseca/ignite-react-c3-d02)
+
+### Capítulo IV
+
+- [Desafio 01 - Interface com Chakra UI](https://github.com/nataliafonseca/ignite-react-c4-d01)
+
