@@ -1,6 +1,6 @@
 # Ignite - Trilha ReactJS
 
-Repositório criado para armazenamento do código das aulas da trilha ReactJS do Ignite, da Rocketseat.
+Repositório criado para armazenamento do código das aulas da trilha ReactJS do bootcamp Ignite, da Rocketseat.
 
 ## Desafios
 
