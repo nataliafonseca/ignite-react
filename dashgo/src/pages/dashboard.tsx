@@ -53,8 +53,8 @@ const options: ApexOptions = {
       shade: 'dark',
       opacityFrom: 0.7,
       opacityTo: 0.3,
-    }
-  }
+    },
+  },
 };
 
 const series = [{ name: 'series 1', data: [31, 120, 10, 51, 18, 109] }];
@@ -68,13 +68,13 @@ export default function Dashboard() {
         <Sidebar />
 
         <SimpleGrid flex="1" gap="4" minChildWidth="320px" align="flex-start">
-          <Box p="8" bg="gray.800" borderRadius="8px" pb="4">
+          <Box p={['4', '8']} bg="gray.800" borderRadius="8px" pb="4">
             <Text fontSize="lg" mb="4">
               Incritos da semana
             </Text>
             <Chart options={options} series={series} type="area" height="160px" />
           </Box>
-          <Box p="8" bg="gray.800" borderRadius="8px" pb="4">
+          <Box p={['4', '8']} bg="gray.800" borderRadius="8px" pb="4">
             <Text fontSize="lg" mb="4">
               Taxa de abertura
             </Text>
