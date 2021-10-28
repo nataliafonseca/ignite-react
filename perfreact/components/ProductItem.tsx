@@ -1,6 +1,7 @@
 import { memo, useState } from "react";
 import dynamic from "next/dynamic";
 import { AddProductToWishlistProps } from "./AddProductToWishlist";
+import lodash from "lodash";
 
 interface ProductItemProps {
   product: {
@@ -12,9 +13,14 @@ interface ProductItemProps {
   onAddToWishlist: (id: number) => void;
 }
 
-const AddProductToWishlist = dynamic<AddProductToWishlistProps>(() => {
-  return import("./AddProductToWishlist").then((mod) => mod.AddProductToWishlist);
-}, {loading: () => <span>Carregando...</span>});
+const AddProductToWishlist = dynamic<AddProductToWishlistProps>(
+  () => {
+    return import("./AddProductToWishlist").then(
+      (mod) => mod.AddProductToWishlist
+    );
+  },
+  { loading: () => <span>Carregando...</span> }
+);
 
 function ProductItemComponent({ product, onAddToWishlist }: ProductItemProps) {
   const [isAddingToWishlist, setIsAddingToWishlist] = useState(false);
@@ -45,6 +51,6 @@ function ProductItemComponent({ product, onAddToWishlist }: ProductItemProps) {
 export const ProductItem = memo(
   ProductItemComponent,
   (prevProps, nextProps) => {
-    return Object.is(prevProps.product, nextProps.product);
+    return lodash.isEqual(prevProps.product, nextProps.product);
   }
 );
