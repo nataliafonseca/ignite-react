@@ -24,3 +24,10 @@ Repositório criado para armazenamento do código das aulas da trilha ReactJS do
 - [Desafio 01 - Interface com Chakra UI](https://github.com/nataliafonseca/ignite-react-c4-d01)
 - [Desafio 02 - Upload de imagens](https://github.com/nataliafonseca/ignite-react-c4-d02)
 
+### Capítulo V
+
+- [Desafio 01 - Otimizando a aplicação](https://github.com/nataliafonseca/ignite-react-c5-d01)
+
+### Capítulo VI
+
+- [Desafio 01 - Deploy da aplicação](https://github.com/nataliafonseca/ignite-react-c6-d01)
